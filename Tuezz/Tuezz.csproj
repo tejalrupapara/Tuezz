@@ -43,7 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DemoAry1.cs" />
+    <Compile Include="DemoAry2.cs" />
+    <Compile Include="DemoAry3.cs" />
+    <Compile Include="jquery.cs" />
+    <Compile Include="pattern2.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Program2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
