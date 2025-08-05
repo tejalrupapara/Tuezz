@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+/*
+/
 namespace Tuezz
 {
     internal class jquery
     {
          static void Main(String[] args)
-        {
+         {
             int[][] jary = new int[4][];
             jary[0]= new int[4];
             jary[1]= new int[3];
@@ -19,9 +20,7 @@ namespace Tuezz
             for (int i = 0; i < jary.Length; i++) {
                 for (int j = 0; j < jary[i].Length; j++)
                 {
-                    jary[i][j] = Convert.ToInt32(Console.ReadLine());
-
-
+                    jary[i][j] = Convert.ToInt32(Console.ReadLine()); 
                 }
                 
             }
@@ -31,8 +30,6 @@ namespace Tuezz
                 for (int j = 0; j < jary[i].Length; j++)
                 {
                     Console.WriteLine(jary[i][j]);
-
-
                 }
                 Console.WriteLine();
 
