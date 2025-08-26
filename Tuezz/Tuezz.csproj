@@ -43,17 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Demo1.cs" />
     <Compile Include="DemoAry1.cs" />
     <Compile Include="DemoAry2.cs" />
     <Compile Include="DemoAry3.cs" />
     <Compile Include="Emoloyee.cs" />
+    <Compile Include="Employee.cs" />
     <Compile Include="jquery.cs" />
     <Compile Include="library.cs" />
+    <Compile Include="LineApplication.cs" />
+    <Compile Include="Methodoverloading.cs" />
     <Compile Include="pattern2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Program2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="student.cs" />
+    <Compile Include="StudentDemo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
