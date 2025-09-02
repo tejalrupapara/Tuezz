@@ -24,7 +24,6 @@ namespace Tuezz
             this.s1 = s1;
             this.s2 = s2;
             this.s3 = s3;
-
         }
         public void calcAvg()
         {
@@ -34,17 +33,28 @@ namespace Tuezz
         {
             get { return avg; } //read only property
         }
-
-            public void showDetail()
-        { 
+        public void showDetail()
+         { 
             Console.WriteLine("Roll No: " + rlno);
             Console.WriteLine("Name: " + name);
             Console.WriteLine("Branch: " + branch);
             Console.WriteLine("Semester: " + sem);
-        } 
+         } 
     }
     internal class ClassDemo2
     {
 
+        static void Main(string[] args)
+        {
+            Student1 s = new Student1(101, "Amit", "CSE", 78, 89, 90);
+            s.calcAvg();
+            Student1 s2 = new Student1(101, "Amit", "CSE", 78, 89, 90);
+            s2.calcAvg();
+           if (s.Avg > s2.Avg)
+               s.showDetail();
+            else
+               s2.showDetail();
+
+        }
     }
 }
